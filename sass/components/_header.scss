@@ -1,0 +1,68 @@
+.wrapper-header {
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.header-list {
+  margin-right: 318px;
+  gap: 50px;
+}
+
+.header-list-contacts {
+  gap: 30px;
+}
+
+.wrapper-header__span {
+  color: $accent-color;
+}
+
+.wrapper-header__logo {
+  color: $team-last-color;
+  font-family: $raleway-fonts;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  margin-top: -5px;
+}
+
+.header-list-contacts__link {
+  color: $second-color;
+  font-family: $roboto-fonts;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.header-list-contacts__link:hover {
+  color: $accent-color;
+  font-family: $roboto-fonts;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-list__item {
+  color: $main-color;
+  font-family: $roboto-fonts;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-list__item:hover {
+  color: $accent-color;
+  font-family: $roboto-fonts;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  line-height: 136%;
+}

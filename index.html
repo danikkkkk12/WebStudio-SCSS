@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStudio</title>
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- sass -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container flex wrapper-header">
+      <a href="index.html" class="wrapper-header__logo"><span class="wrapper-header__span">Web</span>Studio</a>
+      <nav class="nav-bar flex">
+        <ul class="header-list flex">
+          <li class="header-list__item"><a href="#" class="header-list__item">Студія</a></li>
+          <li class="header-list__item"><a href="#" class="header-list__item">Портфоліо</a></li>
+          <li class="header-list__item"><a href="#" class="header-list__item">Контакти</a></li>
+        </ul>
+        <ul class="header-list-contacts flex">
+          <li class="header-list-contacts__item">
+            <img src="images/mail-header.svg" alt="mail_image" class="header-list-contacts__image">
+            <a href="mailto:info@devstudio.com" class="header-list-contacts__link">mailto:info@devstudio.com</a>
+          </li>
+          <li class="header-list-contacts__item">
+            <img src="images/telephone.svg" alt="telephone">
+            <a href="tel:+380961111111" class="header-list-contacts__link">+38 096 111 11
+              11</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section_busines container">
+      <ul class="busines-list">
+        <h1 class="busines-list__title">Ефективні рішення</h1>
+      </ul>
+      <ul class="list_titles">
+        <h2 class="list_titles__subject">для вашого бізнесу</h2>
+      </ul>
+      <div class="main-btn-wrapper">
+        <h2 class="main-btn-wrapper__title"><button type="button" class="main-btn-wrapper__button btn-open" data-modal-open>Замовити
+            послугу</button>
+        </h2>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <img src="images/close.svg" alt="close" data-modal-close class="modal__btn-close">
+          <h2 class="modal__title-window">Залиште свої дані, ми вам передзвонимо</h2>
+          <form class="modal__input-window">
+            <div class="wrapper-input-modal">
+              <p class="wrapper-input-modal__paragraph">Ім'я</p>
+              <img src="images/boy-modal.svg" alt="boy_modal" class="wrapper-input-modal__image">
+              <input for="name" class="wrapper-input-modal__input"></input>
+            </div>
+            <div class="wrapper-input-modal">
+              <p class="wrapper-input-modal__paragraph">Телефон</p>
+              <img src="images/phone-modal.svg" alt="boy_modal" class="wrapper-input-modal__image">
+              <input for="telephone" class="wrapper-input-modal__input modal-telephone"></input>
+            </div>
+            <div class="wrapper_input_modal">
+              <p class="wrapper-input-modal__paragraph">Пошта</p>
+              <img src="images/email-modal.svg" alt="boy_modal" class="wrapper-input-modal__image">
+              <input for="email" class="wrapper-input-modal__input modal-email" ></input>
+            </div>
+            <div class="wrapper_input_modal">
+              <p class="wrapper-input-modal__paragraph">Коментар</p>
+              <textarea required="" name="textarea" id="textarea" cols="50" rows="10"></textarea>
+            </div>
+            <label class="cl-checkbox">
+              <div class="paragraph-modal-wrapper">
+                <p class="paragraph-modal-wrapper__checkbox">Погоджуюся з розсилкою та приймаю <a class="paragraph-modal-wrapper__link" href="index.html">Умови договору</a></p>
+              </div>
+              <input type="checkbox">
+              <span></span>
+            </label>
+            <div class="btn-modal-wrapper">
+              <button class="btn-modal-wrapper__button" type="submit">Відправити</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="info-work">
+      <div class="container">
+        <ul class="info-image-list flex">
+          <li class="info-image-list__item"><img src="images/antena.svg" alt="antena"></li>
+          <li class="info-image-list__item"><img src="images/watch.svg" alt="watch"></li>
+          <li class="info-image-list__item"><img src="images/computer.svg" alt="computer"></li>
+          <li class="info-image-list__item"><img src="images/astronaut.svg" alt="astronaut"></li>
+        </ul>
+        <ul class="info-list flex">
+          <li class="info-list__item">
+            <h3 class="info-list__submit">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="info-list__text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+              позиції.
+            </p>
+          </li>
+          <li class="info-list__item">
+            <h3 class="info-list__submit">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="info-list__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+            </p>
+          </li>
+          <li class="info-list__item">
+            <h3 class="info-list__submit">ПЛАНУВАННЯ</h3>
+            <p class="info-list__text">Так само консультація з широким активом значною мірою зумовлює.</p>
+          </li>
+          <li class="info-list__item">
+            <h3 class="info-list__submit">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="info-list__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="team-icon">
+      <div class="container">
+        <h2 class="team-icon__caption">Чим ми займаємося</h2>
+        <ul class="team-image flex">
+          <li class="team-image__item"><img src="images/1.jpg" alt="Writing code" class="team-image__images" width="370px">
+          </li>
+          <li class="team-image__item"><img src="images/2.jpg" alt="Design development" class="team-image__images" width="370px">
+          </li>
+          <li class="team-image__item"><img src="images/3.jpg" alt="Selection of colors" class="team-image__images" width="370px">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="people-team">
+      <div class="container">
+        <h2 class="people-team__caption">Наша команда</h2>
+        <ul class="cards-people flex">
+          <li class="cards-people__item">
+            <img src="images/4.jpg" alt="Designer" class="cards-people__images" width="263">
+            <h3 class="cards-people__name">Ігор Дем'яненко</h3>
+            <p class="cards-people__paragraph">Product Designer</p>
+            <div class="wrapper_people_icon">
+              <img src="images/instagram.svg" alt="instagram">
+              <img src="images/twitter.svg" alt="twitter">
+              <img src="images/facebook.svg" alt="facebook">
+              <img src="images/linkedIn.svg" alt="linkedIn">
+            </div>
+          </li>
+          <li class="cards-people__item">
+            <img src="images/5.jpg" alt="Developer" class="cards-people__images" width="263">
+            <h3 class="cards-people__name">Ольга Рєпіна</h3>
+            <p class="cards-people__paragraph">Frontend Developer</p>
+            <div class="wrapper_people_icon">
+              <img src="images/instagram.svg" alt="instagram">
+              <img src="images/twitter.svg" alt="twitter">
+              <img src="images/facebook.svg" alt="facebook">
+              <img src="images/linkedIn.svg" alt="linkedIn">
+            </div>
+          </li>
+          <li class="cards-people__item">
+            <img src="images/6.jpg" alt="Marketing" class="cards-people__images" width="263">
+            <h3 class="cards-people__name">Микола Тарасов</h3>
+            <p class="cards-people__paragraph">Marketing</p>
+            <div class="wrapper_people_icon">
+              <img src="images/instagram.svg" alt="instagram">
+              <img src="images/twitter.svg" alt="twitter">
+              <img src="images/facebook.svg" alt="facebook">
+              <img src="images/linkedIn.svg" alt="linkedIn">
+            </div>
+          </li>
+          <li class="cards-people__item">
+            <img src="images/7.jpg" alt="Designer" class="cards-people__images" width="263">
+            <h3 class="cards-people__name">Михайло Єрмаков</h3>
+            <p class="cards-people__paragraph">UI Designer</p>
+            <div class="wrapper_people_icon">
+              <img src="images/instagram.svg" alt="instagram">
+              <img src="images/twitter.svg" alt="twitter">
+              <img src="images/facebook.svg" alt="facebook">
+              <img src="images/linkedIn.svg" alt="linkedIn">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-client">
+      <div class="container">
+        <h2 class="section-client__caption">Постійні клієнти</h2>
+        <ul class="client-list flex">
+          <li class="client-list__item"><img src="images/Client1.svg" alt=""></li>
+          <li class="client-list__item"><img src="images/Client2.svg" alt=""></li>
+          <li class="client-list__item"><img src="images/Client3.svg" alt=""></li>
+          <li class="client-list__item"><img src="images/Client4.svg" alt=""></li>
+          <li class="client-list__item"><img src="images/Client5.svg" alt=""></li>
+          <li class="client-list__item"><img src="images/Client6.svg" alt=""></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container wrapper-footer">
+      <div class="wrapper-footer_logo">
+        <a href="index.html" class="wrapper-footer-logo__link"><span class="wrapper-footer-logo__span">Web</span>Studio</a>
+      </div>
+      <address class="footer-address">
+        <br>м. Київ, пр-т Лесі Українки, 26
+      </address>
+      <address class="addres-mail">
+        <a href="mailto:info@devstudio.com" class="addres-mail__link">info@devstudio.com</a>
+      </address>
+      <address class="addres-telephone">
+        <a href="tel:+380961111111" class="addres-telephone__link">+38 096 111 11 11</a>
+      </address>
+    </div>
+    <div class="container">
+      <h3 class="footer__caption">приєднуйтесь</h3>
+      <ul class="footer-list-icon flex">
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse1.svg" alt="instagram">
+        </li>
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse2.svg" alt="twitter">
+        </li>
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse.svg" alt="facebook">
+        </li>
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse4.svg" alt="LinkedIn">
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="modal.js"></script>
+</body>
+
+</html>
