@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container flex wrapper-header">
+      <a href="index.html" class="wrapper-header__logo"><span class="wrapper-header__span">Web</span>Studio</a>
+      <nav class="nav-bar flex">
+        <ul class="header-list flex">
+          <li class="header-list__item"><a href="index.html" class="header-list__item">Студія</a></li>
+          <li class="header-list__item"><a href="portfolio.html" class="header-list__item active">Портфоліо</a></li>
+          <li class="header-list__item"><a href="#" class="header-list__item">Контакти</a></li>
+        </ul>
+        <ul class="header-list-contacts flex">
+          <li class="header-list-contacts__item">
+            <img src="images/mail-header.svg" alt="mail_image" class="header-list-contacts__image">
+            <a href="mailto:info@devstudio.com" class="header-list-contacts__link">mailto:info@devstudio.com</a>
+          </li>
+          <li class="header-list-contacts__item">
+            <img src="images/telephone.svg" alt="telephone">
+            <a href="tel:+380961111111" class="header-list-contacts__link">+38 096 111 11
+              11</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <nav class="nav-button">
+        <button class="btn-section-active">
+          <p class="btn-section__paragraph">Усі</p>
+        </button>
+        <button class="btn-section">
+          <p class="btn-section__paragraph">Веб-сайти</p>
+        </button>
+        <button class="btn-section">
+          <p class="btn-section__paragraph">Додатки</p>
+        </button>
+        <button class="btn-section">
+          <p class="btn-section__paragraph">Дизайн</p>
+        </button>
+        <button class="btn-section">
+          <p class="btn-section__paragraph">Маркейтинг</p>
+        </button>
+      </nav>
+      <section class="section-card">
+        <ul class="section-card__list flex-wrap">
+          <li class="section-card__item">
+            <img src="images/photo1.jpg" alt="laptop">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Технокряк</h3>
+              <p class="wrapper-item-card__paragraph">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo2.jpg" alt="basketball">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Постер New Orlean vs Golden Star</h3>
+              <p class="wrapper-item-card__paragraph">Дизайн</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo3.jpg" alt="logo_restaurant">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Ресторан Seafood</h3>
+              <p class="wrapper-item-card__paragraph">Додаток</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo4.jpg" alt="headphone">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Проєкт Prime</h3>
+              <p class="wrapper-item-card__paragraph">Маркетинг</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo5.jpg" alt="boxes">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Проєкт Boxes</h3>
+              <p class="wrapper-item-card__paragraph">Додаток</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo6.jpg" alt="monitor">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Inspiration has no Borders</h3>
+              <p class="wrapper-item-card__paragraph">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo7.jpg" alt="book">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Видання Limited Edition</h3>
+              <p class="wrapper-item-card__paragraph">Дизайн</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo8.jpg" alt="LAB">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Проєкт LAB</h3>
+              <p class="wrapper-item-card__paragraph">Маркетинг</p>
+            </div>
+          </li>
+          <li class="section-card__item">
+            <img src="images/photo9.jpg" alt="Business">
+            <div class="wrapper-item-card">
+              <h3 class="wrapper-item-card__title">Growing Business</h3>
+              <p class="wrapper-item-card__paragraph">Додаток</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container wrapper-footer">
+      <div class="wrapper-footer-logo">
+        <a href="index.html" class="wrapper-footer-logo__link"><span
+            class="wrapper-footer-logo__span">Web</span>Studio</a>
+      </div>
+      <address class="footer-address">
+        <br>м. Київ, пр-т Лесі Українки, 26
+      </address>
+      <address class="addres-mail">
+        <a href="mailto:info@devstudio.com" class="addres-mail__link">info@devstudio.com</a>
+      </address>
+      <address class="addres-telephone">
+        <a href="tel:+380961111111" class="addres-telephone__link">+38 096 111 11 11</a>
+      </address>
+    </div>
+    <div class="container">
+      <h3 class="footer__caption">приєднуйтесь</h3>
+      <ul class="footer-list-icon flex">
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse1.svg" alt="instagram">
+        </li>
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse2.svg" alt="twitter">
+        </li>
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse.svg" alt="facebook">
+        </li>
+        <li class="footer-list-icon__item">
+          <img src="images/Ellipse4.svg" alt="LinkedIn">
+        </li>
+      </ul>
+    </div>
+    <div class="footer-input ">
+      <form class="footer-input__form flex">
+        <div class="footer-wrapper">
+          <h3 class="footer-wrapper__title">Підпишіться на розсилку</h3>
+          <input placeholder="E-mail" type="mail" class="footer-wrapper__input">
+        </div>
+        <button class="footer-input__button" type="submit">
+          Підписатися
+          <img src="images/icon-telegram.svg" alt="telegram" class="footer-input__image">
+        </button>
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>

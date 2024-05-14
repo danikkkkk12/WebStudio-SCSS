@@ -1,0 +1,169 @@
+.footer {
+  background-color: $background-color;
+  width: 1519px;
+  margin-left: -23px;
+
+  .wrapper-footer-logo {
+    margin-top: 60px;
+
+    .wrapper-footer-logo__link {
+      color: $section-color;
+      font-family: $raleway-fonts;
+      font-size: 26px;
+      margin-top: 60px;
+      font-weight: 700;
+    }
+
+    .wrapper-footer-logo__span {
+      color: $accent-color;
+    }
+  }
+
+  .footer-address {
+    font-family: $roboto-fonts;
+    color: $white-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .addres-mail__link {
+    color: $second-color;
+    font-family: $roboto-fonts;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+  }
+
+  .addres-telephone__link {
+    color: $second-color;
+    font-family: $roboto-fonts;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+  }
+
+
+  .footer__caption {
+    color: $white-color;
+    font-family: $roboto-fonts;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 270px;
+    margin-top: -147px;
+  }
+
+  .footer-list-icon {
+    margin-left: 265px;
+    margin-top: 20px;
+    gap: 10px;
+  }
+}
+
+.footer-input__form {
+  margin-left: 775px;
+  gap: 12px;
+}
+
+.footer-wrapper__title {
+  color: $white-color;
+  font-family: $roboto-fonts;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+.footer-wrapper {
+  margin-top: -168px;
+
+  .footer-wrapper__input {
+    margin-top: 20px;
+    background-color: $background-color;
+    width: 358px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px $shadow-color;
+    padding-left: 16px;
+    color: $logo-color;
+  }
+
+  &__input::placeholder,
+  :focus {
+    color: $logo-color;
+    font-family: $roboto-fonts;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3%;
+    outline: none;
+  }
+
+}
+
+.footer-input__button {
+  position: relative;
+  color: $white-color;
+  font-family: $roboto-fonts;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6%;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px $shadow-color;
+  background: $accent-color;
+  width: 200px;
+  height: 50px;
+  margin-top: -132px;
+  transition: all 0.5s;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  cursor: pointer;
+
+}
+
+.footer-input__button:hover {
+  animation: sh0 0.5s ease-in-out both;
+}
+
+.footer-input__button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+@keyframes sh0 {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(7deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(-7deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+.footer-input__image {
+  margin-bottom: -5px;
+  margin-left: 10px;
+}

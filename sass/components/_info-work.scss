@@ -1,0 +1,28 @@
+.info-work {
+  margin-top: 94px;
+  margin-bottom: 94px;
+
+  .info-image-list__item {
+    margin-bottom: 30px;
+  }
+
+  .info-list__item {
+    list-style: none;
+    flex-basis: calc((100% - 20px) / 4);
+  }
+
+  .info-list__submit {
+    color: $main-color;
+    font-family: $roboto-fonts;
+    font-size: 14px;
+    padding: 0px 30px;
+  }
+
+  .info-list__text {
+    color: $second-color;
+    font-family: $roboto-fonts;
+    font-size: 14px;
+    line-height: 171%;
+    padding: 10px 30px;
+  }
+}

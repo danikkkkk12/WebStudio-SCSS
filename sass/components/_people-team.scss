@@ -1,0 +1,45 @@
+.people-team__caption {
+  color: $main-color;
+  font-family: $roboto-fonts;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  margin-left: -50px;
+  margin-top: 94px;
+}
+
+.cards-people {
+  gap: 30px;
+
+  .cards-people__item {
+    list-style: none;
+    margin-bottom: 94px;
+    background-color: $logo-color;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .cards-people__name {
+    color: $main-color;
+    font-family: $roboto-fonts;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .cards-people__paragraph {
+    color: $second-color;
+    font-family: $roboto-fonts;
+    font-size: 16px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
+
+.wrapper_people_icon {
+  margin: -16px 32px 30px 32px;
+}

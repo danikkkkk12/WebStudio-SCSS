@@ -2,7 +2,10 @@ html {
   box-sizing: border-box;
 }
 
-body,
+// body{
+//   margin: 0;
+//   padding-top: 61.8px;
+// }
 html {
 
   margin: 0;
@@ -33,6 +36,10 @@ ul {
 }
 .flex{
   display: flex;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
 }
 a {
   text-decoration: none;
