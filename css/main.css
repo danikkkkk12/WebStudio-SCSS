@@ -300,9 +300,30 @@ ul {
   padding-bottom: 50px;
 }
 
+.team-image__images {
+  z-index: 0;
+}
+
 .team-image {
   gap: 30px;
   margin-left: -15px;
+}
+
+.team-image__label {
+  position: relative;
+  background: rgba(47, 48, 58, 0.8);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -72px;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
 }
 
 .people-team__caption {
