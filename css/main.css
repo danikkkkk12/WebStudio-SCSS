@@ -189,6 +189,7 @@ ul {
   font-size: 44px;
   text-align: center;
   margin-top: -272px;
+  text-transform: uppercase;
 }
 .section-busines .main-btn-wrapper {
   display: -webkit-box;
@@ -199,7 +200,7 @@ ul {
           justify-content: center;
   margin-top: 30px;
 }
-.section-busines .main-btn-wrapper .main-btn-wrapper__button {
+.section-busines .section-busines-wrapper__button {
   color: #fff;
   font-family: "Roboto", sans-serif;
   line-height: 187%;
@@ -420,7 +421,7 @@ ul {
 
 .footer {
   background-color: #2F303A;
-  width: 1519px;
+  width: 1542.5px;
   margin-left: -23px;
 }
 .footer .wrapper-footer-logo {
