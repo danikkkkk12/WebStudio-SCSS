@@ -17,13 +17,18 @@
     rel="stylesheet">
   <!-- sass -->
   <link rel="stylesheet" href="css/main.css">
+  <!-- animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- aos animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="header">
     <div class="container flex wrapper-header">
-      <a href="index.html" class="wrapper-header__logo"><span class="wrapper-header__span">Web</span>Studio</a>
-      <nav class="nav-bar flex">
+      <a href="index.html" class="wrapper-header__logo bounce-top"><span
+          class="wrapper-header__span">Web</span>Studio</a>
+      <nav class="nav-bar flex tracking-in-expand-fwd-top">
         <ul class="header-list flex">
           <li class="header-list__item"><a href="#" class="header-list__item active">Студія</a></li>
           <li class="header-list__item"><a href="portfolio.html" class="header-list__item">Портфоліо</a></li>
@@ -53,8 +58,7 @@
       </ul>
       <div class="main-btn-wrapper">
         <h2 class="main-btn-wrapper__title">
-          <button type="button" class="section-busines-wrapper__button btn-open"
-            data-modal-open>Замовити
+          <button type="button" class="section-busines-wrapper__button btn-open" data-modal-open>Замовити
             послугу</button>
         </h2>
         <!-- <div class="backdrop is-hidden" data-modal>
@@ -259,6 +263,10 @@
     </div>
   </footer>
   <script src="../js/modal.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
